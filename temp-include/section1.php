@@ -8,7 +8,7 @@
                 <div class="content-box">
                     <h3>Making Your Events Shine Bright</h3>
                     <h2>Sensational <span>group</span></h2>
-                    <div class="text">From virtual launches to destination weddings, corporate events, and live entertainment, we make every moment unforgettable. Shine with us!</div>
+                    <div class="text">From virtual launches to destination weddings, corporate events, and live <br> entertainment, we make every moment unforgettable. Shine with us!</div>
                     <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Contact Us --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Our Services --</span></a></div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 <div class="content-box">
                     <h3>Making Your Events Shine Bright</h3>
                     <h2>Sensational <span>group</span></h2>
-                    <div class="text">From virtual launches to destination weddings, corporate events, and live entertainment, we make every moment unforgettable. Shine with us!</div>
+                    <div class="text">From virtual launches to destination weddings, corporate events, and live <br> entertainment, we make every moment unforgettable. Shine with us!</div>
                     <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Contact Us --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Our Services --</span></a></div>
                 </div>
             </div>

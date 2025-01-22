@@ -59,7 +59,7 @@
     <!-- Header Upper -->
     <div class="header-upper">
         <div class="auto-container">
-            <div class="inner-container">
+            <div class="inner-container MenuwithBG">
                 <!--Nav Box-->
                 <div class="nav-outer clearfix">
                     <!--Mobile Navigation Toggler-->

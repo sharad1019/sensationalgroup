@@ -56,6 +56,7 @@
 .testimonial-section-two .owl-theme .owl-nav .owl-next:hover:before,
 .testimonial-section-two .owl-theme .owl-nav .owl-prev:hover:before,
 .welcome-block-one:nth-child(2) .inner-box:before,
+.welcome-block-one:nth-child(4) .inner-box:before,
 .contact-section-two .icon-box .icon,
 .main-footer .footer-bottom:before,
 .welcome-block-one .inner-box .icon-box,
@@ -68,7 +69,6 @@
 .contact-section .icon-box .icon,
 .main-footer .social-links li a:before,
 .main-footer .logo-widget .widget-content:before,
-.main-header .header-upper .inner-container,
 .bootstrap-select .dropdown-menu li a.active,
 .main-header.header-style-two .header-upper .logo-box .logo,
 .shop-sidebar-wrapper .price-ranger .ranger-min-max-block input[type="submit"],
@@ -113,9 +113,10 @@
 .tab-btn-style-one .nav-item .nav-link.active,
 .service-block-one .icon .round-shape:after,
 .sticky-header .main-menu .navigation > li.current-menu-item > a {
-	background-image: -moz-linear-gradient( 0deg, rgb(209,100,26) 0%, rgb(192,40,42) 100%);
-	background-image: -webkit-linear-gradient( 0deg, rgb(209,100,26) 0%, rgb(192,40,42) 100%);
-	background-image: -ms-linear-gradient( 0deg, rgb(209,100,26) 0%, rgb(192,40,42) 100%);
+	/* background-image: -moz-linear-gradient( 0deg, rgba(15,56,38,1) 0%, rgba(0,147,66,1) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgba(15,56,38,1) 0%, #009342 100%);
+	background-image: -ms-linear-gradient( 0deg, rgba(15,56,38,1) 0%, rgba(0,147,66,1) 100%); */
+	background-color: #638C6D;
 }
 
 .btn-style-one .btn-title:before {
