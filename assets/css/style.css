@@ -33,6 +33,10 @@ font-family: 'Roboto', sans-serif;
 
  ***/
 
+ :root {
+	--green: #0f3826;
+  }
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -2386,23 +2390,24 @@ img {
 
 .banner-carousel .content-box h2 {
 	display: block;
-	font-size: 180px;
+	font-size: 90px;
 	line-height: 1.15em;
 	color: #ffffff;
 	font-weight: 700;
 	opacity: 0;
 	margin-bottom: 0;
-	letter-spacing: -10px;
 	position: relative;
 	left: -10px;
 	-webkit-transform: translateY(-100px);
 	-ms-transform: translateY(-100px);
 	transform: translateY(-100px);
-	text-transform: capitalize;
-}
+	text-transform: uppercase;
+	line-height: 90px;
 
+}
 .banner-carousel .content-box h2 span {
-	font-weight: 300;
+    font-weight: 300;
+    display: block;
 }
 
 .banner-carousel .active .content-box h2 {
@@ -2614,12 +2619,20 @@ img {
 .banner-section.style-two .banner-carousel .content-box h2 {
 	font-size: 120px;
 	letter-spacing: -5px;
-	line-height: 1.1em;
+	line-height: 112px;
 	margin-bottom: 20px;
 }
 
-.banner-section.style-two .banner-carousel .content-box:before {
-	display: none;
+.banner-carousel .content-box:before {
+    position: absolute;
+    content: '';
+    background: rgb(255 255 255 / 40%);
+    left: -220px;
+    top: -120px;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    backdrop-filter: blur(6px);
 }
 
 /* Style Three */
@@ -2638,7 +2651,7 @@ img {
 .banner-section.style-three .banner-carousel .content-box h2 {
 	font-size: 120px;
 	letter-spacing: -5px;
-	line-height: 1.1em;
+	line-height: 112px;
 	margin-bottom: 20px;
 }
 
@@ -2669,7 +2682,7 @@ img {
 .banner-section.style-four .banner-carousel .content-box h2 {
 	font-size: 120px;
 	letter-spacing: -5px;
-	line-height: 1.1em;
+	line-height: 112px;
 	margin-bottom: 20px;
 }
 
@@ -9318,6 +9331,9 @@ img.lazy-image.loaded {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
+
+
 
 
 
