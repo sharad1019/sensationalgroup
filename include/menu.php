@@ -1,10 +1,11 @@
-
 <!-- Preloader -->
 <div class="loader-wrap">
-    <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+    <div class="preloader">
+        <div class="preloader-close">Preloader Close</div>
+    </div>
     <div class="layer layer-one"><span class="overlay"></span></div>
-    <div class="layer layer-two"><span class="overlay"></span></div>        
-    <div class="layer layer-three"><span class="overlay"></span></div>        
+    <div class="layer layer-two"><span class="overlay"></span></div>
+    <div class="layer layer-three"><span class="overlay"></span></div>
 </div>
 
 <!-- Main Header -->
@@ -16,12 +17,14 @@
                 <div class="top-left">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                        <div class="logo"><a href="index.html"><img
+                                    src="https://sensationalgroup.in/wp-content/uploads/2024/04/logo-1-287x300.jpg"
+                                    alt="" style="width: 90px;"></a></div>
                     </div>
                 </div>
 
                 <div class="top-middile">
-                    <div class="language">
+                    <!-- <div class="language">
                         <span>Language:</span>
                         <form action="#" class="language-switcher">
                             <select class="selectpicker">
@@ -31,23 +34,23 @@
                                 <option value="1">Bengli</option>
                             </select>
                         </form>
-                    </div>
+                    </div> -->
                     <div class="contact-info">
                         <div class="single-info">
                             <div class="icon-box"><i class="flaticon-call-1"></i></div>
                             <div class="text">Phone Number</div>
-                            <h4><a href="tel:+98787687676">+987 876 876 76</a></h4>
+                            <h4><a href="tel:+91 99883 85103">+91 99883 85103</a></h4>
                         </div>
                         <div class="single-info">
                             <div class="icon-box"><i class="flaticon-email-4"></i></div>
                             <div class="text">Email Address</div>
-                            <h4><a href="mailto:info@webmail.com">info@webmail.com</a></h4>
+                            <h4><a href="mailto:info@sensationalgroup.in">info@sensationalgroup.in</a></h4>
                         </div>
                     </div>
                 </div>
 
                 <div class="top-right">
-                    <a href="#" class="theme-btn btn-style-two"><span class="btn-title">Get A Quote</span></a>
+                    <a href="#" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a>
                 </div>
             </div>
         </div>
@@ -66,71 +69,66 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="dropdown"><a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home page 01</a></li>
-                                        <li><a href="index-2.html">Home page 02</a></li>
-                                        <li><a href="index-3.html">Home page 03</a></li>
-                                        <li><a href="index-4.html">Home page 04</a></li>
-                                        <li><a href="onepage.html">Onepage Version</a></li>
-                                        <li><a href="rtl-home.html">Home RTL</a></li>
-                                        <li class="dropdown"><a href="index.html">Header Styles</a>
-                                            <ul>
-                                                <li><a href="index.html">Header Style One</a></li>
-                                                <li><a href="index-2.html">Header Style Two</a></li>
-                                                <li><a href="index-3.html">Header Style Three</a></li>
-                                                <li><a href="index-4.html">Header Style Four</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
+                                <li><a href="index.html">Home</a></li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li class="dropdown"><a href="#">Services</a>
+                                <li class="dropdown"><a href="#">Our Services</a>
                                     <ul>
-                                        <li><a href="services-1.html">Services One</a></li>
-                                        <li><a href="services-2.html">Services Two</a></li>
-                                        <li><a href="services-details.html">Services Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Portfolio</a>
-                                    <ul>
-                                        <li><a href="portfolio-1.html">Portfolio One</a></li>
-                                        <li><a href="portfolio-2.html">Portfolio Two</a></li>
-                                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">News</a>
-                                    <ul>
-                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                                        <li><a href="blog-standard.html">Blog Standard</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="careers.html">Careers</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li>
-                                        
-                                        <li class="dropdown"><a href="shop.html">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Products</a></li>
-                                                <li><a href="product-details.html">Product Details</a></li>
-                                                <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/artist/">Artist</a>
                                         </li>
-                                        <li><a href="faq.html">Faq's</a></li>
-                                        <li><a href="404.html">404</a></li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/branding-and-fabrication/">Branding and
+                                                fabrication</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/corporate-gifting/">Corporate
+                                                gifting</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/decor/">Decor</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/destination-wedding/">Destination
+                                                Wedding</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/entertainment/">Entertainment</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/hampers/">Hampers</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a
+                                                href="https://sensationalgroup.in/hospitality-sensational-groups/">Hospitality</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/social-events/">Social Events</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/jampad/">Jampad</a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                            <a href="https://sensationalgroup.in/stationery/">Stationery</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="https://sensationalgroup.in/contact-us/">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>
                     <!-- Main Menu End-->
-                    
+
                     <ul class="social-links clearfix">
                         <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                         <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -164,10 +162,11 @@
     <div class="mobile-menu">
         <div class="menu-backdrop"></div>
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
-        
+
         <nav class="menu-box">
             <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            </div>
             <!--Social Links-->
             <div class="social-links">
                 <ul class="clearfix">
@@ -192,7 +191,8 @@
             <form method="post" action="index.html">
                 <div class="form-group">
                     <fieldset>
-                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here"
+                            required>
                         <input type="submit" value="Search Now!" class="theme-btn">
                     </fieldset>
                 </div>
@@ -207,6 +207,6 @@
                 <li><a href="#">Plan</a></li>
             </ul>
         </div>
-        
+
     </div>
 </div>
