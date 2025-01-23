@@ -2344,16 +2344,16 @@ img {
 }
 
 .banner-carousel .content-box:before {
-	position: absolute;
-	content: '';
-	background: rgba(0, 28, 42, 0.40);
-	left: -220px;
-	top: -120px;
-	width: 650px;
-	height: 650px;
-	border-radius: 50%;
+    position: absolute;
+    content: '';
+    background: rgb(0 0 0 / 40%);
+    left: -220px;
+    top: -120px;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    backdrop-filter: blur(6px);
 }
-
 .style-three .banner-carousel .content-box {
 	text-align: left;
 	max-width: 1000px;
@@ -4357,8 +4357,8 @@ img.lazy-image.loaded {
 	line-height: 30px;
 	font-weight: 400;
 	padding: 14px 20px;
-	background-color: #f8f8f8;
-	border: 1px solid #f8f8f8;
+	background-color: #fffae8;
+	border: 1px solid #fff1bf;
 	-webkit-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
