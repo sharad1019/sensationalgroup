@@ -37,10 +37,10 @@
     <?php include "temp-include/section5.php" ?>
     <?php include "temp-include/section6.php" ?>
     <?php include "temp-include/section7.php" ?>
-    <?php include "temp-include/section8.php" ?>
+    <?php // include "temp-include/section8.php" ?>
     <?php include "temp-include/section9.php" ?>
-    <?php include "temp-include/section10.php" ?>
-    <?php include "temp-include/section11.php" ?>
+    <?php // include "temp-include/section10.php" ?>
+    <?php // include "temp-include/section11.php" ?>
 
 
     <?php include "include/footer.php"; ?>

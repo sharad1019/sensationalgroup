@@ -19,14 +19,11 @@
 .services-section .author-box .designation,
 .services-section .left-column,
 .about-section .image-wrapper .image-two .caption,
-.sec-title.text-center .sub-title:after,
-.sec-title .sub-title:before,
 .team-block-one .social-links li a:before,
 .news-block-two .related-post .post-meta li a,
 .news-block-two .related-post .post-meta li a i,
 .progress-box .bar-inner,
 .progress-box .count-text,
-.sec-title .sub-title,
 .career-block .time,
 .preloader-close,
 .scroll-to-top,
@@ -55,7 +52,6 @@
 .cta-section .wrapper-box:before,
 .testimonial-section-two .owl-theme .owl-nav .owl-next:hover:before,
 .testimonial-section-two .owl-theme .owl-nav .owl-prev:hover:before,
-.welcome-block-one:nth-child(2) .inner-box:before,
 .welcome-block-one:nth-child(4) .inner-box:before,
 .contact-section-two .icon-box .icon,
 .main-footer .footer-bottom:before,
@@ -116,7 +112,8 @@
 	/* background-image: -moz-linear-gradient( 0deg, rgba(15,56,38,1) 0%, rgba(0,147,66,1) 100%);
 	background-image: -webkit-linear-gradient( 0deg, rgba(15,56,38,1) 0%, #009342 100%);
 	background-image: -ms-linear-gradient( 0deg, rgba(15,56,38,1) 0%, rgba(0,147,66,1) 100%); */
-	background-color: #638C6D;
+	/* background-color: #638C6D; */
+	background: linear-gradient(45deg, #be954c, #e7d38f, #e5b45b, #e7d38f);
 }
 
 .btn-style-one .btn-title:before {
@@ -195,3 +192,16 @@
 }
 
 
+
+
+
+
+
+.sec-title .sub-title:before, .sec-title .sub-title::after{
+	background-color: #222;
+}
+.sec-title .sub-title{
+	color: #222;	
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: #222;
+}

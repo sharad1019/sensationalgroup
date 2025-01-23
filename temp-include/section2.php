@@ -1,39 +1,28 @@
-<section class="welcome-section pt-0">
+<section class="welcome-section welcomeSectionNew">
     <div class="auto-container">
-        <div class="wrapper-box">
-            <div class="row m-0">
+        <div class="wrapperBoxNew">
+            <div class="row ">
                 <!-- Welcome Block One -->
-                <div class="welcome-block-one col-lg-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box">
-                        <div class="icon-box"><span class="flaticon-analysis"></span></div>
+                <div class="col-lg-4 no-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="NewCard">
                         <h2>Destination Wedding</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </div>
+                        <div class="text">Create unforgettable moments with personalized destination wedding planning and execution.</div>
                         <div class="read-more"><a href="#">Read More</a></div>
                     </div>
                 </div>
                 <!-- Welcome Block One -->
-                <div class="welcome-block-one col-lg-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box" style="background-image: url(assets/images/resource/image-1.jpg);">
-                        <div class="icon-box"><span class="flaticon-tax"></span></div>
+                <div class="col-lg-4 no-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="NewCard NewCardCenter" >
                         <h2>Corporate Events</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </div>
+                        <div class="text">Elevate your brand with flawlessly organized and impactful corporate events.</div>
                         <div class="read-more"><a href="#">Read More</a></div>
                     </div>
                 </div>
                 <!-- Welcome Block One -->
-                <div class="welcome-block-one col-lg-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box">
-                        <div class="icon-box"><span class="flaticon-work-1"></span></div>
+                <div class="col-lg-4 no-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="NewCard">
                         <h2>Artist Mangement</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </div>
-                        <div class="read-more"><a href="#">Read More</a></div>
-                    </div>
-                </div>
-                <div class="welcome-block-one col-lg-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box" style="background-image: url(assets/images/resource/image-1.jpg);">
-                        <div class="icon-box"><span class="flaticon-tax"></span></div>
-                        <h2>Social Events</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </div>
+                        <div class="text">Connect with top talent through seamless artist booking and management services.</div>
                         <div class="read-more"><a href="#">Read More</a></div>
                     </div>
                 </div>
