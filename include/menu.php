@@ -146,7 +146,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index.html" title=""><img src="assets/images/sticky-logo.png" alt="" title=""></a>
+                <a href="index.html" title=""><img src="https://sensationalgroup.in/wp-content/uploads/2024/04/logo-1-287x300.jpg" width="40" alt="" title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
