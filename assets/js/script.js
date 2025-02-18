@@ -64,7 +64,11 @@
 		}
 	}
 	
-	headerStyle();
+	$(document).ready(function () {
+		$(window).on("scroll", function () {
+			headerStyle();
+		});
+	});
 
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){

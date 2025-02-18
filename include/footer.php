@@ -56,13 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <style>
-                    .image img {
-                        width: 100px;
-                        height: 70px;
-                        object-fit: cover;
-                    }
-                </style>
+      
                 <!--Column-->
                 <div class="column col-lg-4">
                     <div class="footer-widget instagram-widget">
