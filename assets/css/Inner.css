@@ -134,3 +134,12 @@
     font-size: 20px;
     font-weight: 400;
 }
+.GalleryRow .image img {
+    min-height: 250px;
+    object-fit: cover;
+}
+.sponsors-section img {
+    height: 70px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+}
