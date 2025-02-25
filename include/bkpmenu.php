@@ -71,7 +71,7 @@
                             <ul class="navigation clearfix">
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li class="dropdown"><a href="#">Our Services</a>
+                                <li class="dropdown"><a href="#">Our Services</a>   
                                     <ul>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -111,7 +111,7 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                            <a href="jampad.html">Jampad</a>
+                                            <a href="https://sensationalgroup.in/jampad/">Jampad</a>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
