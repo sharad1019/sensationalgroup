@@ -3737,12 +3737,13 @@ img.lazy-image.loaded {
 }
 
 .gallery-block-one .inner-box .image img {
-	-webkit-transition: 1s;
-	-o-transition: 1s;
-	transition: 1s;
-	width: 100%;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
-
 .gallery-block-one .inner-box:hover .image img {
 	-webkit-transform: scale(1.2);
 	-ms-transform: scale(1.2);
@@ -9609,3 +9610,12 @@ img.lazy-image.loaded {
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
 }
+
+
+.title {
+    color: white;
+}
+.cardwIcon {
+    flex: 1;
+}
+

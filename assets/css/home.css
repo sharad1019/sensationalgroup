@@ -345,3 +345,26 @@
         width: 100%;
     }
   }
+  .read-more a {
+    background: #0000000a;
+    border: 1px solid #046e3f;
+    padding: 7px 15px;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    box-shadow: 7px 7px 11px #00000026;
+    color: #046e3f;
+    margin-top: 20px;
+    display: block;
+    width: max-content;
+}
+
+.whyInner h3{
+font-weight: 700;
+font-size: 25px;
+text-align: left;
+}
+.whyInner p{
+font-weight: 400;
+font-size: 16px;
+text-align: left;
+}

@@ -162,6 +162,13 @@
 	.loan-calculator .calculation-value .inner-box {
 		margin-bottom: 30px;
 	}
+	.cardwIconContainer {
+		flex-wrap: wrap;
+	}
+	.cardwIcon {
+        width: 47%;
+        flex: auto;
+    }
 
 }
 
@@ -252,6 +259,34 @@
 	}
 	.related-product .owl-theme .owl-nav {
 		display: none;
+	}
+	.social-links {
+		display: none;
+	}
+	.NewCard {
+		padding: 20px;
+		display: flex
+	;
+		gap: 20px;
+	}
+
+	.NewCard>div {
+		flex: 1;
+	}
+	.about-section {
+		padding-bottom: 15px;
+	}
+	.sec-title .text {
+		padding-top: 5px;
+	}
+	.ABOUTBG {
+		padding-top: 15px;
+	}
+	.GreenPart {
+		padding: 30px;
+	}
+	.gallery-section {
+		padding: 20px 0 20px;
 	}
 
 }
