@@ -1,0 +1,479 @@
+
+
+.bannerSection {
+    min-height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageLayer {
+    background-image: url(../images/new/newlyweds-their-first-dance.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    z-index: 0;
+}
+.BGLayer {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(19, 17, 68, 0.85);
+    z-index: 1;
+}
+.UpperContainer{
+    position: relative;
+    z-index: 3;
+}
+
+
+
+
+
+.contentBoxMain .firstTag {
+    font-size: 16px;
+    background: white;
+    width: max-content;
+    padding: 9px;
+    border: none;
+    
+}
+
+.contentBoxMain .ThirdTag {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.btnstyleone {
+    position: relative;
+    line-height: 24px;
+    color: var(--green);
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    background-color: var(--yellow);
+    padding: 11px 23px;
+    text-transform: uppercase;
+    border: 2px solid var(--yellow);
+    display: flex
+;
+    width: max-content;
+}
+.Right56 {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+.Right56item {
+    background: var(--yellow);
+    color: var(--green);
+    font-size: 36px;
+    font-weight: 800;
+    width: 114px;
+    height: 112px;
+    clip-path: polygon(0 0, 75% 0%, 100% 28%, 100% 80%, 100% 100%, 25% 100%, 0% 72%, 0% 20%);
+    border-radius: 10px 40px 10px 40px;
+    margin-right: 5px !important;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 10px;
+}
+
+.tagone {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--green);
+    margin: 0;
+}
+.tagTwo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--green);
+}
+
+.bannerSection:after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -1px;
+    width: 100%;
+    height: 105px;
+    background: url(../images/pattern-1.png) center bottom / contain repeat-x;
+    z-index: 6;
+}
+
+
+.NewCard {
+    padding: 20px;
+}
+.NewCard h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.IocnSpan {
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(45deg, #0f3826, #008148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.textOFSERVICE{
+    font-size: 14px;
+    color: #fff;
+}
+.serviceCard h3 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.serviceCard p {
+    font-size: 12px;
+    color: white;
+    line-height: 16px;
+    display: none;
+}
+.serviceCard {
+    width: 47%;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 1px;
+}
+.serviceCard::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 30%;
+    background: linear-gradient(45deg, #ffffff, #f5f5f500);
+    bottom: 0;
+    right: 100%;
+}
+.serviceCard::after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(45deg, #ffffff, #e5fff300);
+    bottom: 0;
+    left: 0;
+}
+
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+.ptagServices{
+    display: block !important;
+}
+.leftStyleImageServices {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.EmojiIconSpan {
+    font-size: 20px;
+    background: linear-gradient(45deg, #ffffff, #ffffffd9);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: -10px 0 0 -10px;
+}
+
+
+.Why-sec-title h2 {
+    text-align: left;
+}
+
+.Why-sec-title {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.cardofFHigh {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    z-index: 9;
+}
+.sectionTitle {
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 20px;
+}
+.CarSecContainer {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    padding: 25px;
+    /* margin-top: -110px; */
+    position: relative;
+    z-index: 39;
+    background: white;
+    /* clip-path: polygon(0% 0%, 100% 0%, 105% 150%, -5% 150%); */
+    border-radius: 25px;
+    overflow: hidden;
+}
+.CarSecContainer::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    background-image: url(../images/Layer-54.png);
+    background-size: contain;
+    opacity: 0.2;
+}
+
+.CarSectionCont{
+    position: relative;
+    z-index: 9;
+    padding-bottom: 25px;
+}
+.carInnerTitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #095433;
+    margin: 0px 0 10px 20px;
+}
+.cartpara16 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.HiCar6 {
+    background: #0000000a;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 20px 0 70px -50px black;
+}
+
+.HiCar6::before {
+    position: absolute;
+    left: -12px;
+    top: 10px;
+    width: 40px;
+    height: 35px;
+    background: linear-gradient(45deg, #0f3826, #008148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px 50px 50px 0;
+    z-index: 2;
+    
+}
+.num1::before {content: "1";}
+.num2::before {content: "2";}
+.num3::before {content: "3";}
+.num4::before {content: "4";}
+
+.HiCar6::after {
+    position: absolute;
+    content: "";
+    left: -12px;
+    top: 40px;
+    width: 12px;
+    height: 13px;
+    background-color: #072719;
+    border-radius: 0px 0 0 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+	.cardofFHigh {
+		flex-wrap: wrap;
+	}
+    .HiCar6 {
+		width: 45%;
+	}
+  }
+@media only screen and (max-width: 500px) {
+    .HiCar6 {
+		width: 100%;
+	}
+	.cardofFHigh {
+		gap: 20px;
+	}
+    .serviceCard {
+        width: 100%;
+    }
+  }
+  .read-more a {
+    margin-top: 10px;
+    color: var(--dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex
+;
+    align-items: center;
+    font-size: 14px;
+    gap: 15px;
+}
+
+.whyInner h3{
+font-weight: 700;
+font-size: 25px;
+text-align: left;
+}
+.whyInner p{
+font-weight: 400;
+font-size: 16px;
+text-align: left;
+}
+
+
+
+
+.ImageWithClip {
+    min-height: 750px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+    object-fit: cover;
+    clip-path: polygon(90px 0, 100% 0, 100% calc(100% - 90px), calc(100% - 90px) 100%, 0 100%, 0 90px);
+    border-radius: 120px 10px 120px 10px;
+    position: relative;
+    display: flex
+;
+    align-items: flex-end;
+    padding: 40px 150px 100px 150px;
+    overflow: hidden;
+}
+
+
+.ImageWithClip::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(45deg, var(--green), transparent);
+}
+.SecondTag {
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0px 10px 16px #0007;
+}
+.ImpactNuber {
+    font-size: 24px;
+    font-weight: 800;
+}
+.z10{
+   position: relative; 
+   z-index: 10;
+}
+.FollowUsPara {
+    margin: 0;
+    color: var(--green);
+}
+
+.Sliderbackground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.slider-controls {
+    display: flex
+;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.slider-controls {
+    display: flex
+;
+    flex-direction: column;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    z-index: 10;
+    gap: 15px;
+}
+
+.slidercontrolsBTN {
+    width: 50px;
+    height: 50px;
+    display: flex
+;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #0000002e;
+    backdrop-filter: blur(75px);
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+.ServiceImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+.ContentCardofServices {
+    background: var(--yellow);
+    color: var(--green);
+    border-radius: 10px 40px 10px 40px;
+    padding: 55px 15px 15px 25px;
+    margin: -35px -20px 0px 20px;
+}
+.NewCard .text {
+    display: none;
+}
+
+.sec-title .sub-title {
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
+}
