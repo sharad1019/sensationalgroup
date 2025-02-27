@@ -147,26 +147,34 @@
 }
 .textOFSERVICE{
     font-size: 14px;
-    color: #fff;
+    color: var(--dark);
 }
 .serviceCard h3 {
     font-size: 16px;
-    color: #ffffff;
+    color: var(--white);
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 5;
 }
 .serviceCard p {
-    font-size: 12px;
-    color: white;
+    font-size: 14px;
+    color: var(--white);
     line-height: 16px;
-    display: none;
+    min-height: 70px;
+    position: relative;
+    z-index: 5;
 }
 .serviceCard {
-    width: 47%;
     position: relative;
     display: flex;
     gap: 10px;
     padding-bottom: 1px;
+    margin: 0 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 130px;
 }
 .serviceCard::before {
     position: absolute;
@@ -195,6 +203,8 @@
 }
 .ptagServices{
     display: block !important;
+    position: relative;
+    z-index: 5;
 }
 .leftStyleImageServices {
     width: 100%;
@@ -477,3 +487,138 @@ text-align: left;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #fff;
 }
+.sliderImageofCard {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.ServicesCOntentCard {
+    padding: 25px;
+    background: var(--white);
+    min-height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.ServicesCOntentCard::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000000;
+    backdrop-filter: blur(20px);
+}
+.BookButton {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+.BookButton span {
+    padding: 10px 15px;
+    background-color: var(--yellow);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.BookButton::before {
+    position: absolute;
+    content: "";
+    right: -3px;
+    bottom: -3px;
+    width: 50px;
+    height: 90%;
+    background: var(--green);
+    z-index: 0;
+}
+
+.Sliderbackground .MainSlider,
+.Sliderbackground .MainSlider,
+.Sliderbackground .MainSlider .slick-list,
+.Sliderbackground .MainSlider .slick-track{
+    height: 100%;
+}
+.ptagServices {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background: var(--yellow);
+    margin-top: 25px;
+}
+.LogoCOntainer465 {
+    display: flex
+;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+}
+.LogoCOntainer465 img {
+    width: 110px;
+    height: 100px;
+    object-fit: contain;
+    padding: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 25px;
+}
+.multiple-items {
+    margin-bottom: 70px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.LogoText{
+		display: none;
+	}
+	.ImageWithClip {
+		padding: 25px;
+		clip-path: none;
+		border-radius: 0;
+        min-height: 590px;
+	}
+	.SecondTag {
+		font-size: 30px;
+		font-weight: 600;
+	}
+    .slider-controls {
+        right: 82%;
+        bottom: 440px;
+        
+    }
+    .SSLinkList li {
+        width: 29px;
+        height: 29px;
+    }
+    .SocialDivLink {
+        top: 160px;
+        right: -100px;
+        padding: 5px 5px 5px 21px;
+    }
+    .FollowUsPara {
+        margin: 0;
+        color: var(--green);
+        font-size: 12px;
+    }
+    .NewCard {
+        flex-direction: column;
+    }
+    .contentBox {
+        flex-direction: column;
+    }
+    .secTitle{
+        width: 100%;
+        margin-top: 0;
+    }
+    .pointsrow{
+        width: 100%;
+    }
+    .pointsitem {
+        width: 50%;
+        background-color: var(--green);
+    }
+  }

@@ -22,12 +22,6 @@ font-family: 'Roboto', sans-serif;
 
  ***/
 
- :root {
-	--green: #0f3826;
-	--dark: #323232;
-	--white: #fff;
-	--yellow: #ffe66d;
-  }
 
 * {
 	margin: 0px;
@@ -1541,7 +1535,7 @@ img {
 .search-popup .search-form {
 	position: relative;
 	padding: 0px 15px 0px;
-	max-width: 1024px;
+	max-width: 550px;
 	margin: 0 auto;
 	margin-top: 150px;
 	margin-bottom: 100px;
@@ -1585,15 +1579,14 @@ img {
 	text-transform: uppercase;
 	border-radius: 0px 7px 7px 0px;
 }
-
 .search-popup h3 {
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 600;
-	color: #ffffff;
-	margin-bottom: 20px;
-	letter-spacing: 1px;
-	text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .search-popup .recent-searches {
@@ -2774,9 +2767,6 @@ img {
 	padding-top: 40px;
 }
 
-.sec-title.light h2 {
-	color: #fff;
-}
 
 .sec-title.text-right .sub-title:before {
 	left: auto;
@@ -9387,6 +9377,8 @@ img.lazy-image.loaded {
     position: relative;
     background: #ffffff;
     padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .ABOUTBG::before {
     position: absolute;
@@ -9395,8 +9387,9 @@ img.lazy-image.loaded {
     top: 0;
     width: 100%;
     height: 100%;
-    background: var(--green);
-    mix-blend-mode: multiply;
+    background: #00000000;
+    /* mix-blend-mode: multiply; */
+    backdrop-filter: blur(20px);
 }
 
 .z10{
@@ -9509,25 +9502,27 @@ img.lazy-image.loaded {
 
 
 
-.pointsrow {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
 .ptitle {
     font-size: 18px;
-    font-weight: 700;
-    background: linear-gradient(45deg, #0f3826, #008148);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #0969da;
+    font-weight: 500;
     display: inline;
+    color: white;
+}
+.pPara {
+    color: white;
+    font-size: 14px;
 }
 .pointsitem {
     width: 48%;
-    background: white;
     padding: 20px;
+    backdrop-filter: blur(11px);
+    border-bottom: 1px solid white;
+    background: #00000024;
+    display: flex;
+    flex-direction: column;
+}
+.pointsitem:nth-child(2) {
+    background: var(--green);
 }
 .GreenPart {
     background: linear-gradient(45deg, #0f3826, #008148);
@@ -9658,4 +9653,61 @@ img.lazy-image.loaded {
 	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
+}
+
+.contentBox{
+	display: flex;
+	flex-wrap: wrap;
+}
+.secTitle {
+    background-color: white;
+    border-top: 10px solid var(--yellow);
+    padding: 25px;
+    width: 50%;
+    margin-top: -60px;
+}
+.pointsrow {
+    display: flex;
+    flex-wrap: wrap;
+	width: 50%;
+}
+
+
+.secTitle h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+.WhoWeare{
+	font-size: 16px;
+	font-weight: 400;
+}
+.TopBottomHeight{
+	padding: 50px 0;
+}
+.SliderImageMain{
+	object-fit: cover;
+}
+
+.FormInput {
+    width: 100%;
+    display: block;
+    background: #fff;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.FollowUsParaNewbutton {
+    width: 100%;
+    height: 50px;
+    background: var(--green);
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+.search-form {
+    background: var(--yellow);
+    padding: 60px !important;
+    border-radius: 60px !important;
+    overflow: hidden;
 }
